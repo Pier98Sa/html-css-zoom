@@ -1,5 +1,45 @@
+/*regole comuni*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+/*regole header*/
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    color: #fff;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+.btn{
+  margin: 5px;
+  background-color: #4a4a4a;
+  padding: 5px;
+  border-radius: 6px;
+}
+/*regole main*/
+main{
+    height: calc(100vh - 270px);
+    background-color: violet;
+    flex-wrap: wrap;
+}
+/*regole footer*/
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #222222;
 }
