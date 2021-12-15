@@ -66,7 +66,7 @@ main{
 /*regole footer*/
 footer{
     width: 100%;
-    min-width: 970px;
+    min-width: 1110px;
     height: 100px;
     background-color: #222222;
     position: fixed;
@@ -100,15 +100,15 @@ footer{
 .button-box.right .tool{
     color: #ff0000;
     background-color: #4a4a4a;
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
     font-size: 14px;
 }
 
 .button-box.left .tool{
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .button-box.center .tool{
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
