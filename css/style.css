@@ -72,7 +72,7 @@ main .container.flex{
 /*regole footer*/
 footer{
     width: 100%;
-    min-width: 1480px;
+    min-width: 970px;
     height: 100px;
     background-color: #222222;
     position: fixed;
@@ -80,6 +80,7 @@ footer{
     left: 0;
     z-index: 999;
     justify-content: space-between;
+    overflow-x: auto;
 }
 
 .tool {
@@ -99,19 +100,19 @@ footer{
 .tool .fas.fa-share-square{
     color: #4bc801;
 }
-.button-box.left{
-    width: 12%;
-    justify-content: space-around;
-}
 
-.button-box.center{
-    width: 45%;
-    justify-content: space-around;
-}
 .button-box.right .tool{
     color: #ff0000;
     background-color: #4a4a4a;
     padding: 0 20px 0 20px;
     font-size: 14px;
+}
+
+.button-box.left .tool{
+    margin: 0 5px;
+}
+
+.button-box.center .tool{
+    margin: 0 5px;
 }
 
