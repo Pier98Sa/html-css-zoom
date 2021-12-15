@@ -20,11 +20,7 @@ body{
     font-family: 'Lato', sans-serif;
    
 }
-.container{
-    width: 90%;
-    height: 100%;
-    margin: auto;
-}
+
 /*regole header*/
 header{
     width: 100%;
@@ -48,13 +44,11 @@ header{
 main{
     background-color: #000;
     margin-top: 70px; 
-    margin-bottom: 100px;   
+    margin-bottom: 100px; 
+    flex-wrap: wrap;
+    justify-content: center;  
 }
 
-main .container.flex{
-    flex-wrap: wrap;
-    justify-content: center;
-}
 .user{
     position: relative;
     margin: 5px;
