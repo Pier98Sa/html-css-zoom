@@ -85,11 +85,13 @@ footer{
 
 .tool {
    color: #fff; 
+   cursor: pointer;
 }
 
 .tool i{
     font-size: 35px;
     margin-bottom: 10px;
+    
 }
 
 .tool .fas.fa-chevron-up{
