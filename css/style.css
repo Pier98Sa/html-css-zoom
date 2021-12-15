@@ -72,9 +72,9 @@ footer{
     left: 0;
     z-index: 999;
     justify-content: space-between;
-    overflow-x: auto;
 }
 
+/*regole dei tools*/
 .tool {
    color: #fff; 
    cursor: pointer;
@@ -94,6 +94,7 @@ footer{
 .tool .fas.fa-share-square{
     color: #4bc801;
 }
+
 
 .button-box.right .tool{
     color: #ff0000;
