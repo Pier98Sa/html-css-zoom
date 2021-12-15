@@ -29,7 +29,7 @@ header{
     color: #fff;
     justify-content: flex-end;
     align-items: flex-start;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
@@ -42,9 +42,7 @@ header{
 }
 /*regole main*/
 main{
-    background-color: #000;
-    margin-top: 70px; 
-    margin-bottom: 100px; 
+    background-color: #000; 
     flex-wrap: wrap;
     justify-content: center;  
 }
@@ -69,7 +67,7 @@ footer{
     min-width: 1110px;
     height: 100px;
     background-color: #222222;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     left: 0;
     z-index: 999;
